@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:background="@color/black"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/latest_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:fontFamily="@font/product_sans_bold"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/drawer_button_padding"
+            android:text="Latest"
+            android:textColor="@color/white"
+            android:textSize="@dimen/heading_text_size"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="@dimen/btn_corner_radius"
+            app:rippleColor="@color/white"
+            android:focusable="true"/>
+
+    <View android:layout_width="380dp"
+          android:layout_height="0.9dp"
+          android:background="@color/gdcolor"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/top_rated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_bold"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/drawer_button_padding"
+            android:text="Top Rated"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/heading_text_size"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="@dimen/btn_corner_radius"
+            app:rippleColor="@color/white"/>
+
+</LinearLayout>
+

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/moviesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="1dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"/>
+    <include android:id="@+id/myid1" layout="@layout/bottomappbar" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2D9CDB</color>
+    <color name="colorPrimaryDark">#255394</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gdcolor">#484848</color>
+    <color name="appbarcolor">#4f5b62</color>
+
+
+    <color name="selected_dot">#2D9CDB</color>
+    <color name="idle_dot">#662D9CDB</color>
+    <color name="ob_header">#4A4A4A</color>
+    <color name="ob_desc">#4A4A4A</color>
+    <color name="intro_button">#255394</color>
+
+
+</resources>
